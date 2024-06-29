@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from info_hub_svc.ext.auth import create_user
+from info_hub_svc.ext.database import db
+from info_hub_svc.models import Product
 
 
 def create_db():
